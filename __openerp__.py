@@ -2,7 +2,7 @@
 {
 	'name' : 'Loan',
 	'version' : '0.1',
-	'author' : 'Asmaa Aly',
+	'author' : 'rahma',
 	'category' : 'Human Resources',
 	'description' : """
 
@@ -14,10 +14,11 @@
 		'datas/hr_payroll_data.xml',
 		'views/hr_loan_view.xml',
 		'views/hr_payroll_view.xml',
-		#'views/board_hr_loan_statistical_view.xml',
+#		'views/board_hr_loan_statistical_view.xml',
 	],
 
 	'installable': True,
+        'application': True,
 	'auto_install': False,
 }
 
